@@ -1,0 +1,16 @@
+name: "Your Site Name"
+description: "Your Site Description"
+
+
+#Comment in depending on whether you are developing or pushing to production
+#url: "your production site URL"
+url: "http://localhost:4000"
+
+
+#destination: ../your_production_repo
+
+pygments: true
+
+markdown: rdiscount
+
+permalink: blog/:year/:month/:day/:title.html
